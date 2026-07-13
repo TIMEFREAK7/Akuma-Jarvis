@@ -1,0 +1,43 @@
+{
+  "name": "vortex-ai-os-mobile",
+  "version": "1.0.0",
+  "description": "Vortex AI OS - OnePlus 11 Edition. Completely free, on-device AI assistant powered by Gemma-3n-E4B-it",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios",
+    "build:all": "eas build --platform all",
+    "submit:android": "eas submit --platform android",
+    "submit:ios": "eas submit --platform ios",
+    "prebuild": "expo prebuild",
+    "clean": "expo prebuild --clean"
+  },
+  "dependencies": {
+    "expo": "^50.0.0",
+    "expo-file-system": "^16.0.0",
+    "expo-sqlite": "^14.0.0",
+    "@tensorflow/tfjs": "^4.11.0",
+    "@tensorflow/tfjs-react-native": "^0.8.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "react-native-paper": "^5.10.0",
+    "react-native-vector-icons": "^10.0.0",
+    "react-native-markdown-display": "^7.0.0",
+    "zustand": "^4.4.0",
+    "wouter-native": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.2.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
